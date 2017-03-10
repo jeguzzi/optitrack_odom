@@ -1,0 +1,7 @@
+version: '2'
+services:
+  optitrack_odom:
+    image: jeguzzi/ros:optitrack
+    build:
+      context: .
+      dockerfile: Dockerfile
